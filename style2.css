@@ -1,0 +1,66 @@
+body{
+    font-family:Montserrat; 
+    margin:0%;
+   padding:0;
+}
+
+ header{
+background-color: rgb(235, 209, 200);
+color: white;
+ padding: 10px;
+ text-align: center;
+ }
+
+ nav ul{
+    list-style: none;
+     padding: 0%;
+     margin: 0%;
+ }
+
+  nav li {
+ display: inline;
+ margin-right: 20px;
+  }
+
+  nav a{
+text-decoration: none;
+ color: white;
+  }
+
+
+nav  a:hover{
+    text-decoration: underline;
+  }
+
+ .Productos{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+  padding: 20px;
+ }
+  .Producto{
+border: 1px  solid rgb(236, 208, 208) ;
+padding: 10px;
+margin: 10px;
+text-align: center;
+ flex: 20px;
+ box-sizing: border-box;
+  }
+
+ .Producto img{
+max-width: 100%;
+ height: auto;
+  }
+
+
+
+  footer{
+background-color: rgb(235, 209, 200) ;
+ color: white;
+ text-align: center;
+ padding: 10px 0 ; 
+ position:relative ;
+ bottom: 0;
+ width: 100%;
+
+     }
